@@ -1,0 +1,33 @@
+[viewBag]
+
+[listSlides]
+
+[staticMenu]
+code = "menu"
+==
+<header class="header" id="main">
+    <div class="top-line">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-6 col-xs-3 ">
+                    <div class="logo">
+                        <img src="{{ 'assets/img/favicon/apple-touch-icon.png'|theme }}" alt="EmStorm"
+                             class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-9 col-md-push-7">
+                    <div class="phone-wrap">
+                        <i class="fa fa-mobile fa-2x" aria-hidden="true"></i> {% content "phone.txt" %}
+                    </div>
+                    <a href="#" class="toggle-mnu hidden-lg hidden-md"><span></span></a>
+                </div>
+                <div class="col-md-7 col-sm-12 col-xs-12 col-md-pull-3">
+                    <nav class="top-menu">
+                        {% component 'staticMenu' %}
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% component 'listSlides' %}
+</header>

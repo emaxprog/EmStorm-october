@@ -1,0 +1,11 @@
+title: Service
+modelClass: Em\Landing\Models\Service
+list: $/em/landing/models/service/columns.yaml
+recordUrl: 'em/landing/service/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

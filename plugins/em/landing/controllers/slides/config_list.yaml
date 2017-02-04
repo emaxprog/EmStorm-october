@@ -1,0 +1,11 @@
+title: Slides
+modelClass: Em\Landing\Models\Slider
+list: $/em/landing/models/slider/columns.yaml
+recordUrl: 'em/landing/slides/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

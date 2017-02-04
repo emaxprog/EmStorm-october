@@ -1,0 +1,10 @@
+name: Slides
+form: $/em/landing/models/slider/fields.yaml
+modelClass: Em\Landing\Models\Slider
+defaultRedirect: em/landing/slides
+create:
+    redirect: 'em/landing/slides/update/:id'
+    redirectClose: em/landing/slides
+update:
+    redirect: em/landing/slides
+    redirectClose: em/landing/slides

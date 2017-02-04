@@ -1,0 +1,8 @@
+{% for advantage in advantages %}
+    <div class="col-md-3 col-sm-6 col-xs-6">
+        <div class="item">
+            <div class="img"><img src="{{ advantage.img.getThumb(150,150) }}" class="img-responsive" alt=""></div>
+            <h3 class="caption">{{ advantage.caption }}</h3>
+        </div>
+    </div>
+{% endfor %}

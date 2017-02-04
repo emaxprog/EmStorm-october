@@ -1,0 +1,11 @@
+list: $/em/landing/models/advantage/columns.yaml
+modelClass: Em\Landing\Models\Advantage
+title: Advantages
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'em/landing/advantages/update/:id'

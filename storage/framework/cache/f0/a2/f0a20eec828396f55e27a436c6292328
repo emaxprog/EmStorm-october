@@ -1,0 +1,17 @@
+1486218318a:1:{s:9:"index.htm";a:10:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:269:"title = "Главная"
+url = "/"
+layout = "default"
+is_hidden = 0
+
+[contactForm]
+siteName = "mysite"
+email = "emaxprog@gmail.com"
+subject = "Новая тема"
+==
+{% partial "header" %}
+{% partial "services" %}
+{% partial "projects" %}
+{% partial "advantages" %}";s:5:"mtime";i:1486212745;s:6:"markup";s:102:"{% partial "header" %}
+{% partial "services" %}
+{% partial "projects" %}
+{% partial "advantages" %}";s:4:"code";N;s:5:"title";s:14:"Главная";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"contactForm";a:3:{s:8:"siteName";s:6:"mysite";s:5:"email";s:18:"emaxprog@gmail.com";s:7:"subject";s:19:"Новая тема";}}}

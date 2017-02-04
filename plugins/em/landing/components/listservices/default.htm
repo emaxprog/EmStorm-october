@@ -1,0 +1,11 @@
+{% for service in services %}
+    <div class="col-md-4 col-sm-4">
+        <div class="item">
+            <div class="img"><img src="{{ service.img.getThumb(200,200) }}" alt="" class="img-responsive"></div>
+            <h3 class="caption">{{ service.caption }}</h3>
+            <div class="description">
+                {{ service.description }}
+            </div>
+        </div>
+    </div>
+{% endfor %}

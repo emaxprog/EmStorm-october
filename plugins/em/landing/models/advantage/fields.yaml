@@ -1,0 +1,28 @@
+fields:
+    caption:
+        label: Подпись
+        oc.commentPosition: ''
+        span: full
+        type: text
+    created_at:
+        label: Создан
+        oc.commentPosition: ''
+        mode: datetime
+        span: auto
+        type: datepicker
+    updated_at:
+        label: Обновлен
+        oc.commentPosition: ''
+        mode: datetime
+        span: auto
+        type: datepicker
+    img:
+        label: Изображение
+        oc.commentPosition: ''
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload

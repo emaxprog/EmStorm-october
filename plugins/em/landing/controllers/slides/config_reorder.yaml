@@ -1,0 +1,4 @@
+title: Slides
+modelClass: Em\Landing\Models\Slider
+toolbar:
+    buttons: reorder_toolbar

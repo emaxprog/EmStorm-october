@@ -1,0 +1,10 @@
+name: Advantages
+form: $/em/landing/models/advantage/fields.yaml
+modelClass: Em\Landing\Models\Advantage
+defaultRedirect: em/landing/advantages
+create:
+    redirect: 'em/landing/advantages/update/:id'
+    redirectClose: em/landing/advantages
+update:
+    redirect: em/landing/advantages
+    redirectClose: em/landing/advantages

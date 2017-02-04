@@ -1,0 +1,134 @@
+1486218420a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2532:"[contactForm]
+siteName = "mysite"
+email = "emaxprog@gmail.com"
+subject = "Новая тема"
+
+[map]
+latitude = 47.418394175057195
+longitude = 40.14284450000001
+zoom = 12
+width = "100%"
+height = "373px"
+mapTypeId = "yandex#map"
+hintContent = "Новочеркасск"
+balloonContent = "Ростовская область"
+==
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Title</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <link rel="stylesheet" href="{{ 'assets/css/main.min.css'|theme }}">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+</head>
+
+<body>
+{% page %}
+<footer class="footer" id="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><h1 class="title">Контакты</h1></div>
+            <div class="col-md-8">
+                <div class="contacts">
+                    <span class="phone"><i class="fa fa-mobile-phone fa-2x"></i> {% content "phone.txt" %}</span>
+                    <span class="address"><i class="fa fa-map-marker fa-2x"></i> {% content "address.txt" %}</span>
+                </div>
+                <div class="map">
+                    {% component 'map' %}
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form">
+                    <h2>Оставить заявку</h2>
+                    {% component 'contactForm' %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy">
+        &copy; {% content "copyright.txt" %}
+    </div>
+</footer>
+<script type="text/javascript" src="{{ 'assets/js/scripts.min.js'|theme }}"></script>
+{% framework extras %}
+</body>
+</html>";s:5:"mtime";i:1486217817;s:6:"markup";s:2204:"<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Title</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <link rel="stylesheet" href="{{ 'assets/css/main.min.css'|theme }}">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+</head>
+
+<body>
+{% page %}
+<footer class="footer" id="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><h1 class="title">Контакты</h1></div>
+            <div class="col-md-8">
+                <div class="contacts">
+                    <span class="phone"><i class="fa fa-mobile-phone fa-2x"></i> {% content "phone.txt" %}</span>
+                    <span class="address"><i class="fa fa-map-marker fa-2x"></i> {% content "address.txt" %}</span>
+                </div>
+                <div class="map">
+                    {% component 'map' %}
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form">
+                    <h2>Оставить заявку</h2>
+                    {% component 'contactForm' %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy">
+        &copy; {% content "copyright.txt" %}
+    </div>
+</footer>
+<script type="text/javascript" src="{{ 'assets/js/scripts.min.js'|theme }}"></script>
+{% framework extras %}
+</body>
+</html>";s:4:"code";N;s:11:"contactForm";a:3:{s:8:"siteName";s:6:"mysite";s:5:"email";s:18:"emaxprog@gmail.com";s:7:"subject";s:19:"Новая тема";}s:3:"map";a:8:{s:8:"latitude";s:18:"47.418394175057195";s:9:"longitude";s:17:"40.14284450000001";s:4:"zoom";s:2:"12";s:5:"width";s:4:"100%";s:6:"height";s:5:"373px";s:9:"mapTypeId";s:10:"yandex#map";s:11:"hintContent";s:24:"Новочеркасск";s:14:"balloonContent";s:35:"Ростовская область";}}}

@@ -1,0 +1,22 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    caption:
+        label: Подпись
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: Описание
+        type: text
+    created_at:
+        label: Создан
+        type: datetime
+        sortable: true
+    updated_at:
+        label: Обновлен
+        type: datetime
+        sortable: true

@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table em_landing_slider'
+    - builder_table_create_em_landing_slider.php
+1.0.3:
+    - 'Created table em_landing_service'
+    - builder_table_create_em_landing_service.php
+1.0.4:
+    - 'Created table em_landing_projects'
+    - builder_table_create_em_landing_projects.php
+1.0.5:
+    - 'Created table em_landing_advantages'
+    - builder_table_create_em_landing_advantages.php

@@ -1,0 +1,10 @@
+name: Projects
+form: $/em/landing/models/project/fields.yaml
+modelClass: Em\Landing\Models\Project
+defaultRedirect: em/landing/projects
+create:
+    redirect: 'em/landing/projects/update/:id'
+    redirectClose: em/landing/projects
+update:
+    redirect: em/landing/projects
+    redirectClose: em/landing/projects

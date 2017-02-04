@@ -1,0 +1,10 @@
+name: Service
+form: $/em/landing/models/service/fields.yaml
+modelClass: Em\Landing\Models\Service
+defaultRedirect: em/landing/service
+create:
+    redirect: 'em/landing/service/update/:id'
+    redirectClose: em/landing/service
+update:
+    redirect: em/landing/service
+    redirectClose: em/landing/service

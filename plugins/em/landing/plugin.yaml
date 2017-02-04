@@ -1,0 +1,28 @@
+plugin:
+    name: 'em.landing::lang.plugin.name'
+    description: 'em.landing::lang.plugin.description'
+    author: Em
+    icon: oc-icon-image
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Секции
+        url: em/landing/slides
+        icon: icon-puzzle-piece
+        sideMenu:
+            side-menu-item:
+                label: Слайды
+                url: em/landing/slides
+                icon: icon-image
+            side-menu-item2:
+                label: Услуги
+                url: em/landing/service
+                icon: icon-briefcase
+            side-menu-item3:
+                label: Проекты
+                url: em/landing/projects
+                icon: icon-desktop
+            side-menu-item4:
+                label: Преимущества
+                url: em/landing/advantages
+                icon: icon-thumbs-o-up

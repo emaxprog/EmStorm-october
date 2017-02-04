@@ -1,0 +1,11 @@
+<div class="owl-carousel zoom-gallery">
+    {% for project in projects %}
+        <a href="{{ project.img.getPath }}">
+            <div class="item">
+                <div class="img"><img src="{{ project.img.getThumb(250,300,'landscape') }}" class="img-responsive"
+                                      alt=""></div>
+                <div class="item-content"><i class="fa fa-search-plus fa-2x"></i></div>
+            </div>
+        </a>
+    {% endfor %}
+</div>

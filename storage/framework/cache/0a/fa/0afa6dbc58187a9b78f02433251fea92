@@ -1,0 +1,19 @@
+1486218322a:1:{s:14:"advantages.htm";a:7:{s:8:"fileName";s:14:"advantages.htm";s:7:"content";s:295:"[viewBag]
+
+[listAdvantages]
+==
+<section class="advantages" id="advantages">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><h1 class="title">Преимущества</h1></div>
+{% component 'listAdvantages' %}
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1486204176;s:6:"markup";s:264:"<section class="advantages" id="advantages">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><h1 class="title">Преимущества</h1></div>
+{% component 'listAdvantages' %}
+        </div>
+    </div>
+</section>";s:4:"code";N;s:7:"viewBag";a:0:{}s:14:"listAdvantages";a:0:{}}}

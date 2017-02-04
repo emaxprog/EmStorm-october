@@ -1,0 +1,27 @@
+1486218320a:1:{s:12:"projects.htm";a:7:{s:8:"fileName";s:12:"projects.htm";s:7:"content";s:366:"[viewBag]
+
+[listProjects]
+==
+<section class="projects" id="projects">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title">Проекты</h1>
+            </div>
+            <div class="col-md-12">
+{% component 'listProjects' %}
+            </div>
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1486203064;s:6:"markup";s:337:"<section class="projects" id="projects">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title">Проекты</h1>
+            </div>
+            <div class="col-md-12">
+{% component 'listProjects' %}
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;s:7:"viewBag";a:0:{}s:12:"listProjects";a:0:{}}}
